@@ -23,3 +23,8 @@ python convert.py --weights ./data/yolov3.weights --output ./checkpoints/yolov3.
 2. Another deep learning model is used to get the orientation of each detected object <br />
 3. Following the geometric constraints equations from this paper: https://arxiv.org/abs/1612.00496, one could calculate the displacement between the camera and the center of the object.<br />
 4. We assume that the dimention of any object is the average dimention of the object's class in the kitti datset
+
+
+## references:
+https://arxiv.org/abs/1612.00496 <br />
+https://github.com/zzh8829/yolov3-tf2
